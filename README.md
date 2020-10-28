@@ -1,14 +1,17 @@
 # fixedwing_control_apm
 Ardupilot安装教程
 张浩哲
+
 1.克隆源码
 git clone https://github.com/ArduPilot/ardupilot.git
 cd ardupilot
 git submodule update --init --recursive 
+
 2.脚本安装相关功能包
 Tools/environment_install/install-prereqs-ubuntu.sh -y
 . ~/.profile
 之后重启
+
 以上就已经安装了ardupilot，接下来进行SITL测试安装是否成功。
 1.	配置SITL
 cd ardupilot/ArduCopter
